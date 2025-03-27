@@ -1,55 +1,47 @@
 <svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
-    <!-- Sky Background -->
-    <defs>
-        <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#87CEEB"/> <!-- Light Blue -->
-            <stop offset="100%" stop-color="#B0E0E6"/> <!-- Pale Turquoise -->
-        </linearGradient>
-    </defs>
-    <rect width="100%" height="100%" fill="url(#skyGradient)"/>
+    <!-- Background: Financial Analysis Theme -->
+    <rect width="100%" height="100%" fill="#F0F8FF"/> <!-- Light Blue Background -->
 
-    <!-- Sun -->
-    <circle cx="120" cy="80" r="40" fill="#FFD700"/>
-
-    <!-- Clouds -->
-    <g fill="#FFFFFF">
-        <ellipse cx="200" cy="90" rx="50" ry="30"/>
-        <ellipse cx="250" cy="80" rx="40" ry="25"/>
-        <ellipse cx="230" cy="100" rx="45" ry="25"/>
+    <!-- Grid Lines for Financial Chart -->
+    <g stroke="#D3D3D3" stroke-width="1">
+        <line x1="50" y1="400" x2="750" y2="400"/>
+        <line x1="50" y1="350" x2="750" y2="350"/>
+        <line x1="50" y1="300" x2="750" y2="300"/>
+        <line x1="50" y1="250" x2="750" y2="250"/>
+        <line x1="50" y1="200" x2="750" y2="200"/>
     </g>
 
-    <!-- Ground -->
-    <rect x="0" y="400" width="800" height="100" fill="#4CAF50"/>
+    <!-- Financial Bar Chart -->
+    <g fill="#3F51B5">
+        <rect x="80" y="300" width="40" height="100"/>
+        <rect x="140" y="250" width="40" height="150"/>
+        <rect x="200" y="200" width="40" height="200"/>
+        <rect x="260" y="220" width="40" height="180"/>
+        <rect x="320" y="180" width="40" height="220"/>
+    </g>
 
-    <!-- Cooling Towers -->
-    <polygon points="150,350 180,250 210,350" fill="#8D8D8D" stroke="#5A5A5A" stroke-width="3"/>
-    <polygon points="220,350 250,230 280,350" fill="#8D8D8D" stroke="#5A5A5A" stroke-width="3"/>
+    <!-- Financial Trend Line -->
+    <polyline points="80,350 140,280 200,230 260,260 320,190" stroke="red" stroke-width="3" fill="none"/>
 
-    <!-- Factory Building -->
-    <rect x="300" y="280" width="220" height="120" fill="#3F51B5" stroke="#2C3E50" stroke-width="3"/>
-    <rect x="310" y="290" width="50" height="60" fill="#FFC107"/>
-    <rect x="370" y="290" width="50" height="60" fill="#FFC107"/>
-    <rect x="430" y="290" width="50" height="60" fill="#FFC107"/>
+    <!-- Dollar Sign Icons -->
+    <text x="500" y="100" font-size="40px" fill="green" font-weight="bold">$</text>
+    <text x="600" y="150" font-size="30px" fill="green" font-weight="bold">$</text>
+    <text x="700" y="200" font-size="25px" fill="green" font-weight="bold">$</text>
+
+    <!-- Factory -->
+    <rect x="350" y="320" width="150" height="80" fill="#4B4B4B"/>
+    <rect x="370" y="330" width="30" height="50" fill="#FFC107"/>
+    <rect x="420" y="330" width="30" height="50" fill="#FFC107"/>
+    <rect x="470" y="330" width="30" height="50" fill="#FFC107"/>
 
     <!-- Chimneys -->
-    <rect x="320" y="180" width="30" height="100" fill="#795548"/>
-    <rect x="380" y="150" width="30" height="130" fill="#795548"/>
-    <rect x="440" y="170" width="30" height="110" fill="#795548"/>
+    <rect x="380" y="250" width="20" height="70" fill="#5D4037"/>
+    <rect x="440" y="220" width="20" height="100" fill="#5D4037"/>
 
     <!-- Smoke -->
     <g fill="#BDBDBD">
-        <circle cx="335" cy="160" r="20"/>
-        <circle cx="390" cy="120" r="25"/>
-        <circle cx="450" cy="130" r="22"/>
+        <circle cx="390" cy="230" r="15"/>
+        <circle cx="450" cy="190" r="20"/>
     </g>
 
-    <!-- Pipelines -->
-    <rect x="200" y="350" width="100" height="20" fill="#9E9E9E"/>
-    <rect x="300" y="350" width="20" height="50" fill="#9E9E9E"/>
-    <rect x="500" y="350" width="100" height="20" fill="#9E9E9E"/>
-
-    <!-- Electric Towers -->
-    <polygon points="600,350 640,250 680,350" fill="#8D8D8D" stroke="#5A5A5A" stroke-width="3"/>
-    <polygon points="700,350 740,230 780,350" fill="#8D8D8D" stroke="#5A5A5A" stroke-width="3"/>
-    
 </svg>
