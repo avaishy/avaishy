@@ -1,44 +1,31 @@
-<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
-  
-  <!-- Background Gradient -->
-  <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e3c72" stop-opacity="1"/>
-      <stop offset="100%" stop-color="rgb(42, 74, 129)" stop-opacity="1"/>
-    </linearGradient>
+ <svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+      {/** Background */}
+      <rect width="400" height="250" fill=" #7EC8E3" />
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blurred"/>
-      <feMerge>
-        <feMergeNode in="blurred"/>
-        <feMergeNode in="sourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+      {/**Balance base */}
+      <polygon points="190,200,210,200,200,230" fill=" #A0A0A0" />
 
-  <!-- Background -->
-  <rect width="400" height="250" rx="20" fill="url(#bgGradient)"/>
+      {/**Balance Beam */}
+      <polygon points="80,170,320,170,200,200,80,170" fill=" #E0E0E0" />
 
-  <!-- Factory Outline -->
-  <g filter="url(#glow)" fill="#fff" opacity="0.9">
-    <!-- Factory Building -->
-    <rect x="100" y="120" width="120" height="60" rx="5"/>
-    
-    <!-- Zigzag Roof -->
-    <polygon points="100,120 130,100 140,120 160,100 170,120 190,100 220,120" />
+      {/**Left Cube*/}
+       <polygon points="90,120,130,100,170,120,130,140" fill=" #D32F2F" />
+       <polygon points="130,100,130,140,170,120,170,80" fill=" #B71C1C" />
+       <polygon points="90,120,130,140,130,100,90,80" fill=" #E57373" />
 
-    <!-- Chimney -->
-    <rect x="190" y="80" width="15" height="40" rx="3"/>
+       {/**Right-Bottom Cube*/}
+       <polygon points="230,140,270,120,310,140,270,160" fill=" #1976D2" />
+       <polygon points="270,120,270,160,310,140,310,100" fill=" #0D47A1" />
+       <polygon points="230,140,270,160,270,120,230,100" fill=" #64B5F6" />
 
-    <!-- Smoke -->
-    <circle cx="197" cy="70" r="8"/>
-    <circle cx="193" cy="58" r="6"/>
-    <circle cx="190" cy="48" r="5"/>
+       {/**Right-Middle Cube*/}
+       <polygon points="230,100,270,80,310,100,270,120" fill=" #1976D2" />
+       <polygon points="270,80,270,120,310,100,310,60" fill=" #0D47A1" />
+       <polygon points="230,100,270,120,270,80,230,60" fill=" #64B5F6" />
 
-    <!-- Windows -->
-    <rect x="110" y="135" width="20" height="20" rx="3"/>
-    <rect x="140" y="135" width="20" height="20" rx="3"/>
-    <rect x="170" y="135" width="20" height="20" rx="3"/>
-    <rect x="200" y="135" width="20" height="20" rx="3"/>
-  </g>
-</svg>
+       {/**Right-Top Cube*/}
+       <polygon points="230,60,270,40,310,60,270,80" fill=" #1976D2" />
+       <polygon points="270,40,270,80,310,60,310,20" fill=" #0D47A1" />
+       <polygon points="230,60,270,80,270,40,230,20" fill=" #64B5F6" />
+       
+    </svg>
