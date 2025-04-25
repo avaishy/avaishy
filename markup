@@ -29,3 +29,19 @@ const cleanText = (text) => {
 
     return result.trim();
   };
+ {message.role === 'llm' ? (
+                  <div>
+                    <ReactMarkdown>{cleanText(message.msg.response)}</ReactMarkdown>
+                    {message.msg_id === lastestMessageLLMMessageId ? (
+                      <LLMFeedback
+                        handleMessageFeedback={handleMessageFeedback}
+                        messageId={message.msg_id}
+                        feedback={message.feedback}
+                        isDisableInput={setIsDisableInput}
+                      />
+                    ) : null}
+                  </div>
+                )
+                  : message.msg.user_query }
+              </div>
+              </div>
