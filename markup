@@ -1,2 +1,31 @@
 "response": "\"```markdown\\n### Forward-Looking Guidance Summary\\n\\n- **Revenue Growth**:\\n  - Adjusted net revenue growth expected in the low double-digits, a slight improvement from the 10% growth rate in the third quarter.\\n  - Full-year adjusted net revenue growth remains unchanged, targeting low double-digit growth despite lower currency volatility and macroeconomic challenges.\\n\\n- **Operating Expenses**:\\n  - Q4 adjusted operating expenses projected to grow in the high single-digits.\\n  - Full-year adjusted operating expense growth expected to be in the high single-digits.\\n\\n- **Profitability Targets**:\\n  - Adjusted EPS growth rate anticipated to be at the high end of low double-digits.\\n  - Tax rate forecasted between 19% and 19.5%.\\n\\n- **Market Performance**:\\n  - International transaction revenue up 9%, influenced by the Olympics and pricing.\\n  - New Flows revenue grew 18% year-over-year in constant dollars.\\n  - Visa Direct transactions rose 41% year-over-year, driven by interoperability growth among P2P apps.\\n\\n- **Strategic Initiatives**:\\n  - Extended agreement with Wells Fargo to support their commercial portfolios and launch new value-added services.\\n  - Expansion of partnerships, such as with OpenTable, to enhance offerings for Visa cardholders.\\n\\n- **Capital Allocation**:\\n  - Stock buybacks and dividends: Continued share buybacks and dividend distributions with substantial remaining buyback authorization.\\n  - Investment in marketing and general administration to support growth.\\n\\n- **Market Projections**:\\n  - Payments volume and processed transactions expected to grow at a similar rate.\\n  - Cross-border volume growth anticipated to be slightly below previous levels.\\n  - Currency volatility adjustments made, aligning expectations with current levels.\\n  \\n- **Operational Highlights**:\\n  - Operating expenses saw a 14% increase, driven by administrative, personnel, and marketing costs, including Olympic-related spending.\\n  - FX impact was a half-point drag versus the expected benefit.\\n  - Pismo acquisition represented a slight drag on performance.\\n```\\n\"",
          
+const cleanText = (text) => {
+    const unwrapJSON = (str) => {
+      try {
+        const parsed = JSON.parse(str);
+        return typeof parsed === 'string' ? parsed : str;
+      } catch {
+        return str;
+      }
+    };
+
+    let result = unwrapJSON(text);
+    result = unwrapJSON(result);
+
+    result = result
+      .replace(/^```(?:markdown)?\s*/i, '')
+      .replace(/\s*```$/g, '')
+      .replace(/\\n/g, '\n')
+      .replace(/\\t/g, '\t')
+      .replace(/\\u2019/g, '’')
+      .replace(/\\u201c/g, '“')
+      .replace(/\\u201d/g, '”')
+      .replace(/\\u2014/g, '—')
+      .replace(/\\u2026/g, '…')
+      .replace(/\\u00a0/g, ' ')
+      .replace(/\\"/g, '"')
+      .replace(/\\\\/g, '\\');
+
+    return result.trim();
+  };
