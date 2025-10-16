@@ -1,3 +1,171 @@
-{
-  "assessment_report": "**Credit Risk Assessment: Moderate Risk**\n\n- The customer demonstrates several positive credit signals, including zero non-approved spend, high and stable arbitrated income, low external credit utilization, no external delinquency triggers, and a history of repaying large mortgage loans.\n- However, there are notable risk factors: a sharp increase in the revolve index (from 0 to 20), rising internal utilization (from 50% to 60%), increasing exposure over income ratio (reaching the 90th percentile), and a moderately elevated out-of-pattern ratio.\n- Spending is highly concentrated in the lodging industry, particularly at luxury hotels, with limited diversification into typical business-related merchants. There is also a shift from full to partial payment of monthly spend.\n- The customer’s external credit line is high and stable, and payment history shows no return payments, but recent payment activity is minimal.\n- The transaction pattern reveals a move toward more frequent, smaller purchases, but overall spend remains stable.\n\n**Conclusion:**  \nThe customer presents a moderate credit risk profile. While there are strong positive indicators of creditworthiness and compliance, the increasing reliance on revolving credit, rising exposure ratios, and concentrated spending in luxury lodging suggest emerging risk factors that warrant monitoring.",
-  "analysis_report": "# Credit Risk Assessment: Non-Approved Spend Pattern\n\n## Overview\n\n- The metric analyzed is the ratio of non-approved spend to approved spend for the unpaid period.\n- A value above 0 is considered high and indicates increased risk due to non-approved spending.\n- The values provided are for eight months ago and seven months ago.\n\n## Observed Pattern\n\n- **Eight months ago:** The ratio was 0.0.\n- **Seven months ago:** The ratio remained at 0.0.\n\n## Analysis\n\n- **Consistent Zero Ratio:** For both periods, the customer had no non-approved spend relative to approved spend during the unpaid period.\n- **Absence of High-Risk Behavior:** The lack of non-approved spend suggests the customer strictly adhered to approved usage, which is required for small business credit card accounts.\n- **Stable Spending Pattern:** The unchanged ratio over consecutive months indicates a stable and compliant spending pattern.\n\n## Credit Risk Implications\n\n- **Low Risk from Non-Approved Spend:** The customer did not engage in non-approved spending during the periods analyzed, which minimizes risk associated with unauthorized or prohibited usage.\n- **Positive Indicator for Creditworthiness:** The consistent zero ratio over time reflects responsible card usage and adherence to business-only spending policies.\n\n## Conclusion\n\n- The customer's pattern of non-approved spend over time demonstrates compliance with credit card usage policies and does not present elevated credit risk based on the provided data.# Credit Risk Assessment\n\n## Variable Overview\n\n- **Normalized total spend weighted by average merchant credit to gross ratio for unpaid period** reflects the riskiness of spend based on merchant credit practices.\n- **Higher values** indicate spending at merchants where deferred payment is common, suggesting increased credit risk.\n- **Percentile thresholds:**\n  - 10th percentile: **-6.966** (low risk)\n  - 50th percentile: **0.066** (median)\n  - 90th percentile: **0.393** (high risk)\n\n## Customer's Spend Pattern\n\n- **Eight months ago:** Value was **0.335**\n- **Seven months ago:** Value was **0.372**\n\n## Analysis\n\n- Both values are **above the median (0.066)**, indicating the customer consistently spends at merchants where deferred payment is more prevalent.\n- The values are **close to the 90th percentile (0.393)**, but do not exceed it. This places the customer in the **upper-middle risk segment**, approaching high risk but not at the extreme.\n- The **increase from 0.335 to 0.372** over one month suggests a **rising trend in risk**, as the customer is moving closer to the high-risk threshold.\n- The pattern indicates **persistent and increasing exposure** to merchants with higher credit-to-gross ratios, which may reflect a tendency to utilize credit more aggressively in business transactions.\n\n## Summary\n\n- The customer's spend pattern over time shows **elevated and increasing credit risk** based on their preference for merchants with more lenient credit terms.\n- The values are **consistently above the median and nearing the high-risk threshold**, highlighting a **potential upward trend in riskiness**.# Credit Risk Assessment: Arbitrated Income Pattern\n\n## Income Level Analysis\n\n- The customer's arbitrated income was **360 thousand dollars** eight months ago and **360 thousand dollars** seven months ago.\n- This income level is **above the 90th percentile** (320 thousand dollars), indicating the customer is in the highest income bracket compared to peers.\n\n## Income Stability\n\n- The income value remained **constant** over the two consecutive months observed.\n- No evidence of volatility or decline is present in the provided data for this period.\n- The consistency at a high level suggests **income stability** during the observed timeframe.\n\n## Relative Position\n\n- The customer’s income is **well above the median** (125 thousand dollars) and the low threshold (60 thousand dollars).\n- This positions the customer as having **substantially higher income** than the majority of comparable small business users.\n\n## Risk Implications\n\n- **High and stable income** is generally associated with **lower credit risk** due to greater repayment capacity and financial resilience.\n- The absence of downward trends or fluctuations in the observed period further supports a **favorable risk profile** based on income.\n\n---\n\n**Summary:**  \nThe customer demonstrates a pattern of consistently high arbitrated income, well above the 90th percentile, with no signs of instability or decline in the observed months. This income profile is indicative of strong financial capacity and suggests a lower credit risk from an income perspective.# Credit Risk Assessment: Revolve Index Pattern\n\n## Overview of Revolve Index\n\n- The revolve index measures the extent to which a customer carries unpaid balances from month to month.\n- **Low Value:** 0 (10th percentile)\n- **Median Value:** 0.02 (50th percentile)\n- **High Value:** 9.12 (90th percentile)\n- Values above 9.12 are considered high and indicate frequent revolving of balances.\n\n## Customer's Revolve Index History\n\n- **Eight months ago:** Revolve index was 0 (low, no unpaid balances carried).\n- **Seven months ago:** Revolve index increased sharply to 20 (well above the 90th percentile, indicating significant revolving behavior).\n\n## Pattern Analysis\n\n- The customer transitioned from a very low revolve index (no revolving) to a very high revolve index (frequent and substantial revolving) within a one-month period.\n- The increase from 0 to 20 is abrupt and exceeds the typical high threshold (90th percentile value of 9.12).\n- This pattern suggests a sudden change in payment behavior, moving from full repayment to carrying a large unpaid balance.\n\n## Credit Risk Implications\n\n- The sharp rise in the revolve index indicates a significant shift in the customer's credit usage and repayment habits.\n- A revolve index of 20 is substantially higher than the majority of customers, signaling increased reliance on credit and potential cash flow issues.\n- Such a pattern may be associated with elevated credit risk, as it reflects a tendency to accumulate and carry forward large balances, which can increase the likelihood of financial stress or default.\n\n## Summary\n\n- The customer's revolving behavior changed dramatically from low risk (no revolving) to high risk (substantial revolving) within a short period.\n- This pattern is indicative of increased credit risk for the small business credit card account.# Credit Risk Assessment\n\n## Overview\n\n- The Clarity Credit Score by Experian is designed to evaluate credit risk, especially for individuals with limited traditional credit histories, by using alternative financial data.\n- The score ranges from 300 to 850, with higher scores indicating lower credit risk.\n\n## Assessment Based on Provided Information\n\n- The customer's Clarity Credit Score is missing for both eight months ago and seven months ago.\n- No current or historical score data is available for the assessment period.\n\n## Implications\n\n- The absence of Clarity Credit Score data for consecutive months suggests a lack of available credit history or alternative financial data for the customer during that time.\n- Without a recorded score, it is not possible to quantify the customer's credit risk using the Clarity Credit Score model.\n- The missing data may indicate limited engagement with credit products or insufficient reporting to credit bureaus.\n\n## Conclusion\n\n- Due to the missing Clarity Credit Score information, the customer's credit risk cannot be assessed using this metric for the specified period.\n- The lack of score data itself may be viewed as a risk factor, as it reflects limited visibility into the customer's credit behavior and financial reliability.# Credit Risk Assessment: Exposure Over Income Ratio Analysis\n\n## Overview\n\nThe exposure over income ratio is a key indicator of a customer's credit risk, reflecting the proportion of credit exposure relative to income. Higher values suggest greater risk, as the customer is more leveraged compared to their income.\n\n## Percentile Benchmarks\n\n- **10th Percentile:** 0 (Low exposure)\n- **50th Percentile:** 0.01 (Median exposure)\n- **90th Percentile:** 0.08 (High exposure)\n- **Low Value:** Below 0 (less than 10th percentile)\n- **High Value:** Above 0.08 (greater than 90th percentile)\n\n## Customer's Exposure Over Time\n\n- **Eight Months Ago:** Exposure over income ratio was 0.07\n- **Seven Months Ago:** Exposure over income ratio increased to 0.08\n\n## Pattern Analysis\n\n- The customer's exposure over income ratio was **0.07** eight months ago, which is just below the 90th percentile threshold (0.08). This indicates that the customer was already at a relatively high level of exposure compared to their income.\n- The ratio increased to **0.08** seven months ago, reaching the 90th percentile. This places the customer at the threshold for high exposure, suggesting a further increase in credit risk.\n- The upward movement from 0.07 to 0.08 over one month demonstrates a **rising trend in exposure relative to income**.\n- Both values are significantly above the median (0.01), indicating that the customer's exposure is much higher than that of the typical small business customer.\n\n## Credit Risk Implications\n\n- The customer's exposure over income ratio has consistently been at the upper end of the distribution, moving from just below to at the high-risk threshold.\n- The increasing trend in this ratio over time signals **heightened credit risk**, as the customer is becoming more leveraged relative to their income.\n- The pattern suggests that the customer may be approaching or exceeding prudent limits for credit exposure, which is a concern for credit risk management.\n\n## Conclusion\n\nThe customer's exposure over income ratio has shown a clear upward trend, reaching the high-risk threshold. This pattern indicates elevated credit risk, with the customer maintaining and increasing a high level of exposure relative to income over time.# Credit Risk Assessment: External Credit Utilization History\n\n## Overview\n\nThe customer's external credit utilization history over the past eight and seven months has been provided. The focus is on average utilization ratios and the number of trades with high utilization.\n\n## Key Observations\n\n- **Average Utilization Ratio**\n  - The customer maintained an average utilization of 10 percent across all external revolving trades in both periods.\n  - This level of utilization is considered low and suggests prudent credit management.\n\n- **High Utilization Trades**\n  - The customer had zero external trades with utilization exceeding 75 percent in both periods.\n  - Absence of high-utilization trades indicates the customer is not heavily reliant on credit lines or revolving debt.\n\n## Credit Risk Implications\n\n- **Low Utilization**\n  - Consistently low average utilization is generally associated with lower credit risk.\n  - It suggests the customer is not overextended and is likely managing their credit responsibly.\n\n- **No High Utilization Trades**\n  - The lack of any trades with utilization above 75 percent further supports a low-ris...
+# **Credit Risk Assessment: Moderate Risk**
+
+- The customer demonstrates several positive credit signals, including zero non-approved spend, high and stable arbitrated income, low external credit utilization, no external delinquency triggers, and a history of repaying large mortgage loans.  
+- However, there are notable risk factors: a sharp increase in the revolve index (from 0 to 20), rising internal utilization (from 50% to 60%), increasing exposure over income ratio (reaching the 90th percentile), and a moderately elevated out-of-pattern ratio.  
+- Spending is highly concentrated in the lodging industry, particularly at luxury hotels, with limited diversification into typical business-related merchants. There is also a shift from full to partial payment of monthly spend.  
+- The customer’s external credit line is high and stable, and payment history shows no return payments, but recent payment activity is minimal.  
+- The transaction pattern reveals a move toward more frequent, smaller purchases, but overall spend remains stable.  
+
+**Conclusion:**  
+The customer presents a **moderate credit risk profile**. While there are strong positive indicators of creditworthiness and compliance, the increasing reliance on revolving credit, rising exposure ratios, and concentrated spending in luxury lodging suggest emerging risk factors that warrant monitoring.
+
+---
+
+# **Credit Risk Assessment: Non-Approved Spend Pattern**
+
+## **Overview**
+- The metric analyzed is the ratio of non-approved spend to approved spend for the unpaid period.
+- A value above 0 is considered high and indicates increased risk due to non-approved spending.
+- The values provided are for eight months ago and seven months ago.
+
+## **Observed Pattern**
+- **Eight months ago:** The ratio was 0.0.  
+- **Seven months ago:** The ratio remained at 0.0.
+
+## **Analysis**
+- **Consistent Zero Ratio:** For both periods, the customer had no non-approved spend relative to approved spend during the unpaid period.  
+- **Absence of High-Risk Behavior:** The lack of non-approved spend suggests the customer strictly adhered to approved usage, which is required for small business credit card accounts.  
+- **Stable Spending Pattern:** The unchanged ratio over consecutive months indicates a stable and compliant spending pattern.
+
+## **Credit Risk Implications**
+- **Low Risk from Non-Approved Spend:** The customer did not engage in non-approved spending during the periods analyzed, minimizing risk associated with unauthorized or prohibited usage.  
+- **Positive Indicator for Creditworthiness:** The consistent zero ratio over time reflects responsible card usage and adherence to business-only spending policies.
+
+## **Conclusion**
+The customer's pattern of non-approved spend over time demonstrates compliance with credit card usage policies and does not present elevated credit risk based on the provided data.
+
+---
+
+# **Credit Risk Assessment: Normalized Total Spend Weighted by Merchant Credit-to-Gross Ratio**
+
+## **Variable Overview**
+- This reflects the riskiness of spend based on merchant credit practices.  
+- **Higher values** indicate spending at merchants where deferred payment is common, suggesting increased credit risk.
+
+### **Percentile thresholds**
+- **10th percentile:** -6.966 (low risk)  
+- **50th percentile:** 0.066 (median)  
+- **90th percentile:** 0.393 (high risk)
+
+## **Customer's Spend Pattern**
+- **Eight months ago:** 0.335  
+- **Seven months ago:** 0.372
+
+## **Analysis**
+- Both values are **above the median (0.066)**, indicating consistent spending at merchants where deferred payment is prevalent.  
+- The values are **close to the 90th percentile (0.393)**, placing the customer in the **upper-middle risk segment**.  
+- The **increase from 0.335 to 0.372** suggests a **rising trend in risk**, with growing exposure to merchants offering lenient credit terms.
+
+## **Summary**
+The customer's spend pattern shows **elevated and increasing credit risk**, with consistent activity above the median and near the high-risk threshold — highlighting a potential upward risk trend.
+
+---
+
+# **Credit Risk Assessment: Arbitrated Income Pattern**
+
+## **Income Level Analysis**
+- **Eight months ago:** $360K  
+- **Seven months ago:** $360K  
+- This is **above the 90th percentile ($320K)** — placing the customer in the top income bracket.
+
+## **Income Stability**
+- Income remained **constant** over both months — showing stability.  
+- No volatility or decline observed.
+
+## **Relative Position**
+- The customer’s income is well above both the **median ($125K)** and **low threshold ($60K)**.  
+
+## **Risk Implications**
+- **High and stable income = low credit risk**.  
+- The steady income trend supports strong repayment capacity.
+
+### **Summary**
+The customer maintains a **consistently high and stable income** (above the 90th percentile) with no signs of decline — a **positive risk indicator**.
+
+---
+
+# **Credit Risk Assessment: Revolve Index Pattern**
+
+## **Overview**
+- Measures unpaid balance carryover month-to-month.  
+- **10th percentile:** 0 (low)  
+- **50th percentile:** 0.02 (median)  
+- **90th percentile:** 9.12 (high)
+
+## **Customer’s History**
+- **Eight months ago:** 0  
+- **Seven months ago:** 20 (well above 90th percentile)
+
+## **Pattern Analysis**
+- A sharp rise from 0 → 20 in one month = **sudden shift from no revolving to high revolving**.  
+- Indicates large unpaid balances carried forward.
+
+## **Credit Risk Implications**
+- Significant increase signals **rising credit dependence** and possible **cash flow stress**.  
+- A revolve index of 20 implies **substantial revolving behavior**, indicating higher risk.
+
+### **Summary**
+A drastic shift from full repayment to large revolving balances represents a **major risk escalation**.
+
+---
+
+# **Credit Risk Assessment: Clarity Credit Score (Experian)**
+
+## **Overview**
+- Ranges from 300–850 (higher = lower risk).  
+- Evaluates credit risk, especially for customers with limited credit history.
+
+## **Assessment**
+- **No score data available** for either of the two months.
+
+## **Implications**
+- Missing score suggests **limited credit history** or **insufficient reporting** to bureaus.  
+- Without data, risk cannot be quantified using this metric.
+
+### **Conclusion**
+The lack of a Clarity Credit Score limits visibility into the customer’s credit behavior, which may itself indicate **potential risk**.
+
+---
+
+# **Credit Risk Assessment: Exposure Over Income Ratio**
+
+## **Overview**
+Measures how leveraged a customer is — the proportion of credit exposure relative to income.
+
+### **Percentiles**
+- 10th: 0 (low exposure)  
+- 50th: 0.01 (median)  
+- 90th: 0.08 (high exposure)
+
+## **Customer Trend**
+- **Eight months ago:** 0.07  
+- **Seven months ago:** 0.08 (reached high-risk threshold)
+
+## **Analysis**
+- The ratio moved from **just below to at the 90th percentile**, showing an upward risk trend.  
+- Both values are **well above the median**, meaning the customer is heavily leveraged relative to income.
+
+## **Risk Implications**
+- Persistent high exposure = **elevated credit risk**.  
+- Indicates a tendency toward over-leverage.
+
+### **Conclusion**
+Exposure over income reached the **90th percentile**, signaling **high leverage and growing credit risk**.
+
+---
+
+# **Credit Risk Assessment: External Credit Utilization History**
+
+## **Overview**
+Assesses how much of available credit the customer uses externally.
+
+## **Key Observations**
+- **Average Utilization:** 10% for both months → low usage.  
+- **High Utilization Trades:** 0 → none above 75% utilization.
+
+## **Credit Risk Implications**
+- **Low average utilization** = strong credit discipline.  
+- **No high-utilization trades** = minimal dependency on revolving credit.
+
+### **Conclusion**
+The customer maintains **low and consistent external credit utilization**, which reflects **prudent credit behavior and low external risk**.
